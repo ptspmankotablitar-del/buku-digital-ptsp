@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="ptspGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#047857" />
+      <stop offset="50%" stop-color="#065f46" />
+      <stop offset="100%" stop-color="#022c22" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Rounded Square -->
+  <rect width="512" height="512" rx="110" fill="url(#ptspGrad)"/>
+  
+  <!-- Inner Gold Hexagon / Islamic Star Geometry -->
+  <polygon points="256,60 410,135 450,290 350,420 162,420 62,290 102,135" fill="none" stroke="url(#goldGrad)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Madrasah Crest Center Shield -->
+  <path d="M256,120 L370,175 L370,310 C370,380 256,430 256,430 C256,430 142,380 142,310 L142,175 Z" fill="#064e3b" stroke="#ffffff" stroke-width="8"/>
+  
+  <!-- Gold Star -->
+  <polygon points="256,160 268,198 308,198 276,222 288,260 256,236 224,260 236,222 204,198 244,198" fill="url(#goldGrad)"/>
+  
+  <!-- Text Label PTSP -->
+  <text x="256" y="325" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="4">PTSP</text>
+  <text x="256" y="365" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#fde68a" text-anchor="middle" letter-spacing="2">MAN KOTA BLITAR</text>
+  <text x="256" y="475" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#a7f3d0" text-anchor="middle" letter-spacing="1">KEMENAG RI</text>
+</svg>
